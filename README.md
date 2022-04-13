@@ -19,7 +19,7 @@
 	<a href="#sobre">Sobre</a> •
 	<a href="#funcionalidades">Funcionalidades</a> •
 	<a href="#tecnologias">Tecnologias</a> •
-	<a href="#autor">Contact</a> 
+	<a href="#autor">Autor</a> 
 </p>
 
 ## Sobre
