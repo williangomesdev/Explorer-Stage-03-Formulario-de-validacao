@@ -64,6 +64,12 @@ form fieldset {
   border: none;
 }
 
+form fieldset .fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 form fieldset legend {
   font-family: "Archivo", sans-serif;
   font-weight: 600;
@@ -89,10 +95,15 @@ form fieldset .input-wrapper label span {
   margin-left: 12px;
   font-size: 12px;
   line-height: 20px;
-  color: #c1bccc;
+  color: #a9a7af;
 }
 
-form fieldset .input-wrapper input {
+form fieldset .input-wrapper label span:hover{
+  color: #6c6a71;
+}
+
+form fieldset .input-wrapper input,
+form fieldset .input-wrapper textarea {
   background: #fafafc;
   border: 1px solid #e6e6f0;
   border-radius: 8px;
@@ -100,5 +111,11 @@ form fieldset .input-wrapper input {
   padding: 0 24px;
   font-size: 16px;
   line-height: 26px;
-  color: #c1bccc;
+  color: #6c6a71;
+}
+
+form fieldset .input-wrapper textarea {
+  padding: 0;
+  resize: none;
+  height: 168px;
 }
