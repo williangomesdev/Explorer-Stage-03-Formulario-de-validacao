@@ -11,6 +11,9 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
+
+
+
 body {
   background: #e5e5e5;
 }
@@ -119,6 +122,10 @@ form fieldset .input-wrapper select {
   color: #6c6a71;
 }
 
+form fieldset .input-wrapper input:invalid{
+  border: 1px solid #ff1010;
+}
+
 form fieldset .input-wrapper textarea {
   padding: 0;
   resize: none;
@@ -211,3 +218,5 @@ footer.form-buttons input.button {
 footer.form-buttons input.button:hover{
   filter: brightness(0.9);
 }
+
+
